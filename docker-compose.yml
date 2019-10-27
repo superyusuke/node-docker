@@ -8,4 +8,11 @@ services:
     ports:
       - "8000:8124"
 
+  express:
+    build: ./express
+    volumes:
+      - ./express:/usr/src/app
+    ports:
+      - "1234:1234"
+
 
