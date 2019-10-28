@@ -7,6 +7,7 @@ const hbs = require("hbs");
 
 const indexRouter = require("./routes/index");
 const notes = require("./routes/notes");
+const debug = require("debug")("module-name");
 
 const app = express();
 
